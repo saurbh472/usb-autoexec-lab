@@ -43,6 +43,7 @@ Insert your USB and run:
 Find the line with your USB and note:
 - ID_VENDOR_ID
 - ID_MODEL_ID
+
 Edit the 99-dev.rules file to match your device.
 
 3. Run the Installer
