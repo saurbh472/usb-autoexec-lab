@@ -1,0 +1,11 @@
+[Unit]
+Description=Run hiker script when USB is inserted
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/run-usb-check.sh
+User=%U
+
+[Install]
+WantedBy=multi-user.target

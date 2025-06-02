@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="0951", ATTRS{idProduct}=="1666", TAG+="systemd", ENV{SYSTEMD_WANTS}="run-system.service"
+
