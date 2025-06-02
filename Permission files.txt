@@ -1,0 +1,15 @@
+ 308  sudo chmod 755 /usr/local/bin/run-usb-check.sh
+  309  sudo chown root:root /usr/local/bin/run-usb-check.sh
+315  sudo udevadm trigger
+  316  sudo udevadm control --reload-rules
+tail -f /tmp/flow.log
+
+ sudo truncate -s 0 /tmp/flow.log
+ 286  sudo nano /usr/local/bin/run-usb-check.sh
+  287  sudo chmod +x /usr/local/bin/run-usb-check.sh
+  
+  
+  
+  
+  sudo systemctl daemon-reload
+  sudo systemctl enable run-system.service
