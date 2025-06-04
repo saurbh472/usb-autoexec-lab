@@ -94,6 +94,6 @@ If set up properly, udev will detect it and execute the script automatically.
 - This is not a hacking tool. It is for training and awareness.
 
 🔐 Disclaimer
-This project is intended for educational purposes only.
-The authors and contributors are not responsible for any misuse.
-Always obtain full permission before using this in any environment that is not your own.
+- This project is intended for educational purposes only.
+- The authors and contributors are not responsible for any misuse.
+- Always obtain full permission before using this in any environment that is not your own.
